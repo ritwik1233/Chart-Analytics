@@ -1,5 +1,5 @@
 var dev={
     MongoURI:process.env.MONGOURI,
-    secretKey:process.env.SECTRETKEY
+    session:process.env.SECRETKEY
 }
 module.exports=dev

@@ -15,7 +15,7 @@ app.use(helmet())
 app.use(fileUpload());
 app.use(bodyParser.json());
 app.use(session({
-    secret: 'my-secret',
+    secret: keys.session,
     resave: false,
     saveUninitialized: true,
 }));
