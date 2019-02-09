@@ -1,0 +1,25 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "nodemon index.js",
+    "start": "node index.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "csvtojson": "^2.0.8",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.1.1-alpha.1",
+    "express-session": "^1.15.6",
+    "helmet": "^3.15.0",
+    "mongoose": "^5.4.9",
+    "nodemon": "^1.18.9"
+  }
+}
